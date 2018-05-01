@@ -3,3 +3,6 @@ sudo: true # faster builds
 
 jdk:
   - oraclejdk8
+
+before_install:
+  - chmod +x mvnw
